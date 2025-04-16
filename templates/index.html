@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestational Diabetes Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .slider {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+            height: 500px;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            height: 100%;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide .text {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 24px;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .form-section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section h2 {
+            text-align: center;
+            color: #ff6666;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .form-group {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-group-full {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #ff6666;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestational Diabetes Awareness</h1>
+    </header>
+
+    <section class="slider">
+        <div class="slides">
+            <div class="slide" style="background-image: url('https://thumbs.dreamstime.com/b/pregnant-woman-her-husband-pregnant-women-her-husband-color-background-closeup-129891150.jpg');">
+                <div class="text">If you're planning for pregnancy, We'd love to offer support and any information you might need about one of the frequent issues faced by Pregnant Women".<br>
+                    "That is Gestational-Diabetes"</div>
+            </div>
+            <div class="slide" style="background-image: url('https://health.wyo.gov/wp-content/uploads/2017/05/pregnant-woman-with-laptop.jpg');">
+                <div class="text">What is Gestational Diabetes?<br>
+                    <ul></ul>
+                    <li>Gestational diabetes is a type of diabetes that develops during pregnancy in women who didn't have diabetes before becoming pregnant. It typically arises in the second or third trimester and usually goes away after the baby is born. However, it’s important to manage gestational diabetes to ensure a healthy pregnancy and baby.
+                </li>
+            </ul>
+            <br>
+                    Causes of Gestational Diabetes:<br>
+                    <ul>
+                    <li>Gestational diabetes occurs when the body cannot produce enough insulin to handle the increased blood sugar levels during pregnancy. Hormonal changes, increased body weight, and genetic factors can contribute to the development of this condition.
+                    </li>
+                </ul>
+                    </div>
+            </div>
+            <div class="slide" style="background-image: url('https://medeor.ae/wp-content/uploads/2022/11/Gestational-Diabetes.jpg');">
+                <div class="text">Symptoms
+                    Gestational diabetes often doesn’t cause noticeable symptoms. However, some women may experience:
+                    <ul>
+                    <li>Increased thirst</li>
+                    <li>Frequent urination</li>
+                    <li>Fatigue</li>
+                    <li>Nausea</li>
+                    </ul>
+                    Diagnosis:
+                    Gestational diabetes is usually diagnosed through screening tests during pregnancy. The most common tests include:<br>
+                    <ul>
+                    <li>Glucose Challenge Test: A preliminary test where you drink a sugary solution, and your blood sugar level is checked after one hour.</li>
+                    <li>Oral Glucose Tolerance Test (OGTT): If the initial test is positive, this follow-up test measures your blood sugar level after fasting, and then again at intervals after drinking a glucose solution.</li>
+                </ul>
+                </div>
+                </div>
+            <div class="slide" style="background-image: url('https://assets-global.website-files.com/5ee7039040ea6efb80d7521c/5ffd985f0031547858c14a89_Pain-During-Pregnancy-What-to-Expect.jpeg');">
+                <div class="text">Risk Factors
+                    Several factors increase the risk of developing gestational diabetes, including:<br>
+                    <ul>
+                    <li>Age: Women over the age of 25 are at a higher risk.</li><br>
+                    <li>Family History: A family history of diabetes increases the risk.</li><br>
+                    <li>Previous Pregnancy: Having gestational diabetes in a previous pregnancy.</li><br>
+                    <li>Weight: Being overweight or obese.</li><br>
+                    <li>Ethnicity: Certain ethnic groups, such as African-American, Hispanic, Native American, and Asian, are at higher risk.</li></div>
+                </ul>
+                </div>
+            <div class="slide" style="background-image: url('https://bonbonindia.com/wp-content/uploads/2021/06/Eating-for-a-healthy-pregnancy.jpg');">
+                <div class="text">
+                    Managing gestational diabetes involves:<br>
+                    <ul>
+                    <li> Healthy Eating: Eating a balanced diet that controls blood sugar levels.</li><br>
+                    <li> Physical Activity: Regular exercise to help regulate blood sugar levels.</li><br>
+                    <li> Monitoring Blood Sugar: Regularly checking blood sugar levels to ensure they stay within a healthy range.</li><br>
+                    <li> Medication: In some cases, insulin or other medications may be needed.</li>
+                </ul>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/65ff40e7-afa8-4b3a-b4bd-b5640d54ed02/Rendition/low-res/Content/Public');">
+                <div class="text">Need not Worry Everyone.<br>
+                    Gestational diabetes is a manageable condition with proper care and monitoring.<br>
+                    By understanding the risks, symptoms, and management strategies, expectant mothers can help ensure a healthy pregnancy for themselves and their babies.</div>
+            </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <section class="form-section" id="form-section">
+        <h2>Fill the Form for a Quick Check on GDM</h2>
+        <form action="/predict#form-section" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="{{ name if name else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="{{ email if email else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="Pregnancies">No. of Pregnancies:</label>
+                <input type="number" id="Pregnancies" name="Pregnancies" value="{{ Pregnancies if Pregnancies else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="Glucose">Glucose:</label>
+                <input type="number" id="Glucose" name="Glucose" value="{{ Glucose if Glucose else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="BloodPressure">Blood Pressure:</label>
+                <input type="number" id="BloodPressure" name="BloodPressure" value="{{ BloodPressure if BloodPressure else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="SkinThickness">Skin Thickness:</label>
+                <input type="float" id="SkinThickness" name="SkinThickness" value="{{ SkinThickness if SkinThickness else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="Insulin">Insulin:</label>
+                <input type="number" id="Insulin" name="Insulin" value="{{ Insulin if Insulin else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="BMI">BMI:</label>
+                <input type="number" id="BMI" name="BMI" step="any" value="{{ BMI if BMI else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function (DPF):</label>
+                <input type="number" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" step="any" value="{{ DiabetesPedigreeFunction if DiabetesPedigreeFunction else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="Age" value="{{ Age if Age else '' }}" required>
+            </div>
+            <div class="form-group-full">
+                <label for="due-date">Due Date:</label>
+                <input type="date" id="due-date" name="due-date" value="{{ due_date if due_date else '' }}" required>
+            </div>
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        {% if prediction_text %}
+        <h2>{{ prediction_text }}</h2>
+        {% endif %}
+    </section>
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        document.querySelector('.prev').addEventListener('click', showPrevSlide);
+        document.querySelector('.next').addEventListener('click', showNextSlide);
+
+        function showSlide(index) {
+            const slidesContainer = document.querySelector('.slides');
+            slidesContainer.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function showPrevSlide() {
+            currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1;
+            showSlide(currentIndex);
+        }
+
+        function showNextSlide() {
+            currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+            showSlide(currentIndex);
+        }
+
+        window.onload = function() {
+            if (window.location.hash === '#form-section') {
+                document.getElementById('form-section').scrollIntoView();
+            }
+        };
+    </script>
+</body>
+</html>
